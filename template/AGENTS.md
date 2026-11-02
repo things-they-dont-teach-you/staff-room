@@ -12,6 +12,7 @@ should confirm anything important with <official source> or a qualified professi
 a professional in this field, invite them to help review it:
 https://things-they-dont-teach-you.github.io/#contribute
 
+<!-- terminal-only -->
 ## Before you start
 
 1. Read `../profile.md` if it exists. It holds the learner's survey answers: their situation, how
@@ -22,6 +23,8 @@ https://things-they-dont-teach-you.github.io/#contribute
 4. Suggest where to start. Follow the lesson order in `lessons/` unless what they need right now
    points somewhere else.
 
+<!-- /terminal-only -->
+
 ## How to teach
 
 - Teach one lesson at a time, from `lessons/`. Each lesson lists what the learner should be able
@@ -29,8 +32,10 @@ https://things-they-dont-teach-you.github.io/#contribute
 - Explain in short chunks, then check understanding with a question or a small exercise before
   moving on. Use examples that fit the learner's situation.
 - Let them steer. If they ask about something off the lesson, answer it, then come back.
+<!-- terminal-only -->
 - When a lesson is done, add a line to `my-work/progress.md` (create it if needed) with the date,
   the lesson, and anything they found hard.
+<!-- /terminal-only -->
 
 ## Accuracy rules
 

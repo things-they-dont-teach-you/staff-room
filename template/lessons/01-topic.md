@@ -1,4 +1,5 @@
 # Lesson 1: <Title>
+<!-- facts: <facts.md section names this lesson uses, separated by ;, or none> -->
 
 ## By the end, the learner can
 

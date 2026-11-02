@@ -51,7 +51,10 @@ Start from `template/` in this repository. It has all of the above with placehol
    for that.
 5. **Never collect personal details.** The tutor must not ask for ID numbers, account numbers,
    logins or exact income.
-6. **Keep lessons short.** Goals, key ideas, one worked example, one exercise, sources. The AI
+6. **Mark computer-only instructions.** Wrap parts of `AGENTS.md` that only make sense with files
+   on a computer (reading `../profile.md`, writing `my-work/progress.md`) in
+   `<!-- terminal-only -->` and `<!-- /terminal-only -->`. The chat edition leaves them out.
+7. **Keep lessons short.** Goals, key ideas, one worked example, one exercise, sources. The AI
    expands on them in conversation.
 
 ## Planned courses

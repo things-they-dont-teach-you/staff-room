@@ -41,7 +41,11 @@ Start from `template/` in this repository. It has all of the above with placehol
    courses first.
 3. **Every figure lives in `facts.md`,** never in a lesson. Each figure links to an official source
    (government or regulator, not a blog) and says when it was checked. Lessons point to `facts.md`,
-   so a yearly update touches one file.
+   so a yearly update touches one file. Under each lesson's title, list the `facts.md` sections it uses,
+   for example `<!-- facts: Income tax brackets; Rebates -->`, or `<!-- facts: none -->`. Each
+   lesson's chat page then carries only those figures, which keeps it cheap on free AI plans. A
+   name only needs to match the start of a section heading; a name that matches nothing fails the
+   site build.
 4. **Teach, don't advise.** Lessons explain how things work. They never tell a learner what to do
    with their own money, health or legal situation, and they point to a qualified professional
    for that.

@@ -50,6 +50,15 @@ Start from `template/` in this repository. It has all of the above with placehol
 6. **Keep lessons short.** Goals, key ideas, one worked example, one exercise, sources. The AI
    expands on them in conversation.
 
+## Planned courses
+
+Some course repositories exist before anyone has written them, so people can ask for them, discuss
+them and volunteer through issues. They have the extra topic `planned` and only a README. The
+survey never offers a planned course; it tells learners it's coming and links to it.
+
+To start writing a planned course, copy `template/` into that repository rather than creating a new
+one. Remove the `planned` topic when the first lessons are ready to try.
+
 ## Review status
 
 Every course starts **under development**, with the warning in its README and `AGENTS.md`.
@@ -60,7 +69,8 @@ links to. Professionals can offer to review with the "Offer to review lessons" i
 
 ## Making a new course
 
-1. Open a "Propose a new course" issue, so nobody duplicates work.
+1. Check whether a planned repository for it already exists; if so, build it there. Otherwise open
+   a "Propose a new course" issue, so nobody duplicates work.
 2. Copy `template/` into a new repository named per rule 1, then fill in every `<placeholder>`.
 3. Test it: clone it next to a test `profile.md`, start your AI tool in the course folder and take
    the first lesson as a learner would. Check that the tutor shows the under-development warning,

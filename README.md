@@ -23,6 +23,7 @@ it here: it reads `AGENTS.md` and walks you through building or fixing a course.
   AGENTS.md        instructions for the AI tutor (CLAUDE.md and GEMINI.md just import it)
   README.md        what the course covers, how to start, the under-development notice
   facts.md         every figure the course uses, each with an official source and a checked date
+  diagrams/        optional SVG diagrams, linked from lessons as ![alt text](../diagrams/<name>.svg)
   lessons/
     01-<topic>.md  one lesson per file: goals, key ideas, an example, an exercise, sources
   .gitignore       keeps the learner's my-work/ folder out of git

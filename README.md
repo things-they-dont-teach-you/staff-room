@@ -90,3 +90,10 @@ links to. Professionals can offer to review with the "Offer to review lessons" i
 
 Open a "Something is wrong or out of date" issue, or send a pull request to the course repository
 with the official source in the description.
+
+## Research and scripts
+
+- [research/](research/README.md): background research on which lessons to write and which
+  sources to use.
+- `scripts/create-planned.sh`: creates the `planned` placeholder repositories. Organisation
+  owners only.

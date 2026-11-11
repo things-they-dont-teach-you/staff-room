@@ -65,13 +65,19 @@ them and volunteer through issues. They have the extra topic `planned` and only 
 survey never offers a planned course; it tells learners it's coming and links to it.
 
 To start writing a planned course, copy `template/` into that repository rather than creating a new
-one. Remove the `planned` topic when the first lessons are ready to try.
+one. Swap the `planned` topic for `draft` when the first lessons are ready to try.
 
-## Review status
+## Course status
 
-Every course starts **under development**, with the warning in its README and `AGENTS.md`.
+Each course carries exactly one status topic, which the website and the enrolment assistant show
+to learners:
 
-A course can drop the warning only when a qualified professional in that country and field has
+- `planned`: a placeholder; nothing to teach yet.
+- `draft`: written, not yet reviewed. The README and `AGENTS.md` carry the warning. A course with
+  no status topic is treated as a draft.
+- `published`: reviewed by a qualified professional.
+
+A course can move to `published`, and drop the warning, only when a qualified professional in that country and field has
 reviewed every lesson and `facts.md`, and said so on a pull request or issue that the README then
 links to. Professionals can offer to review with the "Offer to review lessons" issue form.
 

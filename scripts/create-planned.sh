@@ -1,5 +1,5 @@
 #!/bin/sh
-# Creates a public placeholder repo for every course the website survey offers, so people can
+# Creates a public placeholder repo for each planned course in the list below, so people can
 # open issues on them. Each gets a README, topics (subject, country, planned) and issue labels.
 # Safe to re-run: existing repos are skipped.
 set -e
